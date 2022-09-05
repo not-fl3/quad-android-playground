@@ -24,7 +24,7 @@ fn screen_keyboard(id: usize, characters: &mut Vec<char>) {
         .size(vec2(400., 50.))
         .ui(&mut *root_ui())
     {
-        let mut gl = unsafe { get_internal_gl() };
+        let gl = unsafe { get_internal_gl() };
         gl.quad_context.show_keyboard(true);
     }
 
@@ -32,7 +32,7 @@ fn screen_keyboard(id: usize, characters: &mut Vec<char>) {
         .size(vec2(400., 50.))
         .ui(&mut *root_ui())
     {
-        let mut gl = unsafe { get_internal_gl() };
+        let gl = unsafe { get_internal_gl() };
         gl.quad_context.show_keyboard(false);
     }
 

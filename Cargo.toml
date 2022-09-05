@@ -22,7 +22,7 @@ name = "android.permission.BLUETOOTH_SCAN"
 name = "android.permission.BLUETOOTH_CONNECT"
 
 [dependencies]
-macroquad = ">=0.3.23"
+macroquad = ">=0.3.24"
 once_cell = "1"
 
 [target.'cfg(target_os = "android")'.dependencies]
