@@ -1,0 +1,29 @@
+[package]
+name = "quad-android-playground"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.android]
+res = "android_res"
+icon = "@mipmap/ic_launcher"
+label = "QuadPlayground"
+min_sdk_version = 26
+
+[[package.metadata.android.permission]]
+name = "android.permission.BLUETOOTH"
+max_sdk_version = 30
+[[package.metadata.android.permission]]
+name = "android.permission.BLUETOOTH_ADMIN"
+[[package.metadata.android.permission]]
+name = "android.permission.ACCESS_FINE_LOCATION"
+[[package.metadata.android.permission]]
+name = "android.permission.BLUETOOTH_SCAN"
+[[package.metadata.android.permission]]
+name = "android.permission.BLUETOOTH_CONNECT"
+
+[dependencies]
+macroquad = ">=0.3.23"
+once_cell = "1"
+
+[target.'cfg(target_os = "android")'.dependencies]
+quad-bt = { git = "https://github.com/not-fl3/example-android-bluetooth.git" }
