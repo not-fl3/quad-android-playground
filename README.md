@@ -16,7 +16,9 @@ Collection of android shenanigans as one single app. Useful to test *quads compa
 ## Useful links:
 
 [macroquad.rs: Publish game on Android with Macroquad](https://macroquad.rs/articles/android/)
+
 [macroquda.rs: Java interop with Miniquad on Android](https://macroquad.rs/articles/java/)
+
 [AndroidAssetStudio, a thing to make icons](http://romannurik.github.io/AndroidAssetStudio/)
 
 ## Contribution policy
