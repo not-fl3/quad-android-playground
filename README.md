@@ -1,5 +1,7 @@
 # Quad Android Playground
 
+![android_playground](https://user-images.githubusercontent.com/910977/188341595-9d9e5cc3-26c1-4c3a-b2a3-52e811b0006c.gif)
+
 Collection of android shenanigans as one single app. Useful to test *quads compatibility with a given android phone and do regression testing on anything related to android.
 
 ## Currently showcased features
